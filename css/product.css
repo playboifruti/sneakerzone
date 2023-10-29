@@ -1,0 +1,160 @@
+
+* {
+    margin: 0;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; }
+body {
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}   
+.navColumn {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+.columnLeft {
+    text-align: start;
+}
+.columnLeft a{
+    padding-left: 15px; 
+    padding-right: 10px; 
+    border-left: 1.5px solid #888;
+}
+.navbar a {
+    text-decoration: none;
+    font-weight: 900;   
+    color: #000;
+}
+.navbar a:hover {
+    text-decoration: none;
+}
+.navbar .nav.home {
+    border: none 
+}
+
+#logo {
+    width: 250px; 
+}
+#loginIcon {
+    height: 50px;
+    float: right;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.mainBody {
+    margin: 0;
+    padding: 0;
+}
+.mainContent {
+    width: 65%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.productColumn {
+    width: 50%;
+    float: left;
+    height: auto;
+}
+
+.productPic {
+    width: 90%;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    box-shadow: 5px 8px 10px 1px rgb(229, 229, 229);
+}
+#productSize {
+    position: relative;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+#productName {
+    font-size: 38px;
+}
+#price {
+   margin-top: 3px; 
+   font-size: 18px;
+}
+
+.order {
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 12px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.mainContent::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.productDetails {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    margin-top: 50px;
+    border: 1px solid #000;
+    border-right: none;
+    border-left: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.productDetails h3 {
+    font-size: 22px;
+}
+.productDetails table, th, td {
+    border-collapse: collapse;
+    padding: 0px;
+    padding-right: 40px;
+}
+.tdInput {
+    font-weight: bold;
+}
+.tdDiscription {
+    width: 70%;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+    margin-top: 70px;
+}
+.footerContainer {
+    padding: 50px;
+}
+.logoFooter {
+    width: 250px;
+    float: left;
+}
+.footerInfo {
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.credit {
+    font-size: 14px;
+    color: #999;
+    margin-left: 50px;
+    padding-bottom: 10px;
+    margin-top:15px;
+}

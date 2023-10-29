@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid transparent;
+    border-bottom: 2px solid #999;
+}
+
+.navColumn {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.columnLeft {
+    text-align: start;
+}
+
+.columnLeft a {
+    padding-left: 15px;
+    padding-right: 10px;
+    border-left: 1.5px solid #888;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: 900;
+    color: #000;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+}
+
+.navbar .nav.home {
+    border: none;
+}
+
+#logo {
+    width: 250px;
+}
+
+#loginIcon {
+    height: 50px;
+    float: right;
+}
+
+.time {
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.date {
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+.main {
+    margin-top: 2.5%;
+    padding: 0;
+    height: 700px;
+}
+
+.mainBox {
+    position: relative;
+    width: 80%;
+    height: 95%;
+    min-height: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px solid rgb(177, 177, 177);
+    border-radius: 8px;
+}
+.sectionTop {
+    height: 7%;
+    text-align: center;
+    font-size: 20px;
+    background-color: #1A1A1A;
+    color: #ffffff;
+    border: 0px solid transparent;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px
+}
+.sectionTop h3 {
+    line-height: 180%;
+}
+.leftCol {
+    float: left;
+    width: 180px;
+    background-color: #EBEBEB;
+    height: calc(90% - 10px);
+    padding: 5px;
+    border: 0px solid transparent;
+    border-bottom-left-radius: 8px;
+}
+.rightCol {
+    width: calc(100% - 190px); 
+    background-color: #F1F1F1;
+    height: 90%;
+    float: left; 
+    display: inline-block; 
+    border: 0px solid transparent;
+    border-bottom-right-radius: 8px;
+    position: relative;
+}
+
+.sections {
+    border: 1px solid transparent;
+    font-size: 16px;
+}
+.secA{
+    text-decoration: none;
+    color: #000;
+}
+.active {
+    background-color: #f9f8f8;
+    border: 0px solid transparent;
+    border-radius: 6px;
+}
+
+#content {
+    padding: 20px; 
+}
+
+.sectionButton {
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+}
+#content h2 {
+    font-size: 22px;
+}
+.sectionIcon {
+    height: 17px;
+    margin-right: 5px;
+}
+
+/* ORDER PAGE */
+.table-container {
+    position: relative;
+    max-height: 500px; 
+    overflow: auto;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 8px;
+    padding: 0;
+    margin-top: 20px;
+}
+.tableOrders {
+    text-align:left;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 8px;
+}
+.tableOrder, 
+.trOrders,
+.trOrdersList{
+    border: 1px solid rgb(194, 194, 194);
+}
+.trOrders {
+    background-color: #efefef;
+    color: #666;
+}
+.trOrders th {
+    padding:10px;
+    font-weight: 400;
+}
+.trOrdersList {
+    text-align:left;
+    color: #666;
+    background-color: #f9f9f9;
+}
+.trOrdersList td {
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: 400;
+}
+#orderID {
+    font-weight: 600;
+    color: #000;
+}
+
+/* MESSAGES PAGE */
+.table-containerMess {
+    max-height: 500px; 
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 8px;
+    padding: 0;
+    margin-top: 20px;
+    width: 50%;
+    padding: 10px;
+    background-color: #f7f7f7;
+    float: left;
+    overflow: auto;
+
+}
+#cusMessage {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+.message {
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.message p{
+    color: #555;
+    margin: 0;
+    margin-bottom: 3px;
+
+}
+.replyCont {
+    float: left;
+    width: 40%;
+    height: auto;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    margin-left: 4%;
+    margin-top: 20px;
+    padding: 15px;
+}
+.replyCont h2 {
+    font-size: 22px;
+}
+.input {
+    border: 1px solid transparent;
+    border-bottom: 2px solid #000;
+    background-color: transparent;
+    margin-top: 5px;
+    line-height: 40px;
+    width: 100%;
+}
+.input:focus {
+    outline: none;
+}
+.inputArea {
+    margin-top: 10px;
+    background-color: transparent;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 30px;
+    max-height: 90px;
+    border: 1.5px solid #555;
+}
+.inputArea:focus {
+    outline: none;
+}
+.app-form-button {
+    margin-top: 10px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.app-form-button:active {
+    transform: scale(0.9);
+}
+
+/* ADDPRODUCT  PAGE */
+.table-containerProduct {
+width: 40%;
+margin-top: 20px;
+border: 1px solid rgb(207, 207, 207);
+border-radius: 8px;
+padding: 10px;
+background-color: #f7f7f7;
+float: left;
+font-size: 22px;
+}
+.addProduct {
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+height: 450px;
+}
+.pr {
+    height: 30px;
+}
+.products {
+    float: left;
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    overflow: auto;
+    max-height: 450px;
+}
+.productCard {
+    float: left;
+    width: 90%;
+    margin-top: 10px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    padding: 10px;
+}
+#productImg {
+    width: 150px;
+    float: left;
+}
+.productInfo {
+    float: left;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #555;
+}
+.app-form-button-bordered {
+    margin-top: 10px;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.app-form-button-bordered:active {
+    transform: scale(0.9);
+}
